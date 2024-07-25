@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=, initial-scale=1.0">
+        <link rel="stylesheet" href="css/css.css">
+        <title>CSS</title>
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="index.html">Página Inicial</a></li>
+                <li><a href="html.html">HTML</a></li>
+                <li><a href="css.html">CSS</a></li>
+            </ul>
+        </nav>
+        <div class="CSS">
+            <h1 id="a">O que é CSS?</h1>
+            <div class="introcss">
+                <h2>Introdução a CSS</h2>
+                <p>CSS (Cascading Style Sheets) é uma linguagem usada para descrever a apresentação de documentos HTML. Enquanto HTML é usado para estruturar o conteúdo, o CSS é usado para estilizar esse conteúdo, definindo como os elementos HTML devem ser exibidos.</p>
+            </div>
+            <div id="func">
+                <h2>Como o CSS funciona?</h2>
+                <p>CSS funciona aplicando estilos a elementos HTML através de seletores e declarações. As declarações são compostas por propriedades e valores que definem o estilo dos elementos.</p>
+            </div>
+            <div class="conc">
+                <h2>Conceitos básicos de CSS</h2>
+                <div id="sel1">
+                    <h3>Seletores</h3>
+                    <p>Seletores são usados para "selecionar" os elementos HTML que você deseja estilizar. <br> Existem vários tipos de seletores:</p>
+                </div>
+                <div id="sel2">
+                    <h5>Seletor de Tag:</h5>
+                    <p>Aplica estilos a todos os elementos de um determinado tipo. <br> p { color: blue; } <br> Este exemplo aplica a cor azul a todos os parágrafos (<<i></i>p>).</p>
+                </div>
+                <div id="sel3">
+                    <h5>Seletor de Classe:</h5>
+                    <p>Aplica estilos a todos os elementos que possuem uma classe específica. As classes são precedidas por um ponto (.). <br> .destaque {color: red;} <br> Este exemplo aplica a cor vermelha a todos os elementos com a classe destaque.</p>
+                </div>
+                <div id="sel4">
+                    <h5>Seletor de ID:</h5>
+                    <p>Aplica estilos a um elemento com um ID específico. Os IDs são precedidos por um símbolo de cerquilha (#). <br> #titulo {font-size: 24px;} <br> Este exemplo define o tamanho da fonte para 24 pixels no elemento com o ID titulo.</p>
+                </div>
+                <div class="prop">
+                    <h2>Propriedades e Valores</h2>
+                    <p>As propriedades são os aspectos dos elementos HTML que você deseja estilizar, e os valores são as configurações que você aplica a essas propriedades.
+                    <div id="prop1">
+                        <h5>Propriedade: </h5>
+                        <p>O que você está estilizando (ex: color, font-size, margin).</p>
+                    </div>
+                    <div id="prop2">
+                        <h5>Valor:</h5> 
+                        <p>A configuração específica que você está aplicando à propriedade (ex: red, 24px, 10px).</p>
+                    </div>
+                </div>
+                <div class="clid">
+                    <h2>Classes e IDs</h2>
+                    <p>Classes e IDs são usados para aplicar estilos a elementos HTML de forma mais específica.</p>
+                    <div id="clid1">
+                        <h5>Classe</h5>
+                        <p>Usada para aplicar estilos a múltiplos elementos. Você pode aplicar várias classes a um elemento. <br> .negrito {font-weight: bold;} <br> .azul {color: blue;} </p>
+                    </div>
+                    <div id="clid2">
+                        <h5>ID</h5>
+                        <p>Usado para aplicar estilos a um único elemento. Cada ID deve ser único dentro de uma página HTML. <br> #paragrafo-unico {font-style: italic;} </p>
+                    </div>
+                </div>
+                <div class="cast">
+                    <h2>Cascata e Especificidade</h2>
+                    <p>CSS segue o princípio da cascata, onde regras são aplicadas de cima para baixo no arquivo CSS, e a especificidade determina a prioridade das regras quando há conflitos.</p>
+                    <div id="cast1">
+                        <h5>Cascata:</h5>
+                        <p>Se duas regras conflitantes se aplicam ao mesmo elemento, a última regra no arquivo CSS terá prioridade.</p>
+                    </div>
+                    <div id="cast2">
+                        <h5>Especificidade:</h5>
+                        <p> É calculada com base nos seletores usados. Regras com seletores mais específicos têm maior prioridade.</p>
+                    </div>
+                    <div id="cast3">
+                        <p>Seletores de ID têm maior especificidade que seletores de classe. <br> Seletores de classe têm maior especificidade que seletores de tag.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
